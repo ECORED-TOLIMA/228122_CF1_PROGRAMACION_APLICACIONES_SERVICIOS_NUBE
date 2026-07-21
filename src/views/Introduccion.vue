@@ -10,7 +10,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/intro/img01.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/intro/img01.svg')
       .col.col-lg-8.col-12.order-lg-2.order-2
         .cajon.cajon.C01.color-primario.px-4.py-3.mb-4
           p.mb-0(data-aos="fade-down") El desarrollo de soluciones tecnológicas exige comprender cómo se estructura y gestiona un proyecto de <em>software</em> desde sus etapas iniciales. En este contexto, el ciclo de vida del <em>software</em> y la ingeniería de requisitos permiten identificar las necesidades de los usuarios y transformarlas en especificaciones claras que orientan el desarrollo de sistemas.
@@ -21,7 +21,7 @@
       .col.col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/cXMmrEWCm5c?si=7fXns_RLaiFqjrV3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/EgZNQQMO4vg?si=giJ7hq9x1Gq7ZUxx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
