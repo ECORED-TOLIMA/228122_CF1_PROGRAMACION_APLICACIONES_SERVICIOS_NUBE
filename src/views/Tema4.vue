@@ -23,33 +23,33 @@
           .row.align-items-center.BG01(data-aos="fade-down")
             .col-lg-4.d-none.d-lg-block
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema4/img02.png", alt="Imagen decorativa")
+                img(src="@/assets/curso/tema4/img02.png")
             .col-lg-8.p-5.py-0
               SlyderF.custom.color-acento-botones.p-4(columnas="col-lg-6 col-xl-6")
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img03.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img03.svg").img100.m-auto
                   p Comprender las necesidades y expectativas de los usuarios y de la organización.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img04.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img04.svg").img100.m-auto
                   p Definir de manera clara y estructurada las funcionalidades que debe ofrecer el sistema.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img05.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img05.svg").img100.m-auto
                   p Establecer criterios que permitan verificar y validar el funcionamiento del <em>software</em>.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img06.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img06.svg").img100.m-auto
                   p Facilitar la comunicación entre los diferentes actores involucrados en el proyecto.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img07.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img07.svg").img100.m-auto
                   p Reducir riesgos asociados a interpretaciones incorrectas o cambios tardíos en los requisitos.
     p.mb-4(data-aos="fade-down") La ingeniería de requisitos también contribuye a mejorar la calidad del <em>software</em>, ya que permite detectar inconsistencias, omisiones o ambigüedades en las especificaciones antes de iniciar las etapas de diseño y desarrollo. De esta manera, se disminuyen los costos asociados a correcciones posteriores y se incrementa la probabilidad de que el sistema final cumpla con los objetivos del proyecto.
     .row.justify-content-center.mb-0
@@ -142,7 +142,7 @@
               p Consiste en examinar y organizar la información obtenida durante la elicitación. El objetivo es comprender los requisitos, identificar inconsistencias, resolver ambigüedades y establecer prioridades entre las diferentes funcionalidades del sistema.
           .row(titulo="Especificación de requisitos")
             .col-12.mb-0.mb-md-0
-              p En esta fase los requisitos se documentan de forma clara, estructurada y comprensible para todos los miembros del proyecto. La especificación puede incluir descripciones textuales, modelos, diagramas o historias de usuario que permitan representar el comportamiento esperado del sistema.
+              p En esta fase, los requisitos se documentan de forma clara, estructurada y comprensible para todos los miembros del proyecto. La especificación puede incluir descripciones textuales, modelos, diagramas o historias de usuario que permitan representar el comportamiento esperado del sistema.
           .row(titulo="Validación de requisitos")
             .col-12.mb-0.mb-md-0
               p Tiene como propósito verificar que los requisitos definidos representan correctamente las necesidades del usuario y que son completos, coherentes y viables desde el punto de vista técnico. Esta fase suele realizarse mediante revisiones, prototipos o reuniones de validación con los <em>stakeholders</em>.

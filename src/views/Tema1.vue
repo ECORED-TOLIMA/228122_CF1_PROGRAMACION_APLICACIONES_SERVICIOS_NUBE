@@ -127,27 +127,27 @@
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema1/img07.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema1/img07.svg").img100.m-auto
                   p Modelo en cascada
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema1/img08.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema1/img08.svg").img100.m-auto
                   p Modelo incremental
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema1/img09.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema1/img09.svg").img100.m-auto
                   p Modelo en espiral
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema1/img10.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema1/img10.svg").img100.m-auto
                   p Modelo en V
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema1/img11.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema1/img11.svg").img100.m-auto
                   p Modelo ágil
     p.mb-4(data-aos="fade-down") Cada modelo ofrece ventajas y limitaciones dependiendo del contexto del proyecto. Por esta razón, las organizaciones seleccionan el modelo de desarrollo que mejor se adapta a sus necesidades, recursos y características del sistema que se desea construir.
     .row.justify-content-center.mb-0
@@ -189,7 +189,7 @@
                 td(data-aos="fade-down") Se establece la estructura del sistema, definiendo la arquitectura, los componentes, las bases de datos y la forma en que interactuarán los diferentes elementos del <em>software</em>.
               tr
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Codificación.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") También conocida como fase de desarrollo o programación. En esta etapa los desarrolladores escriben el código fuente del sistema utilizando lenguajes de programación y herramientas de desarrollo.
+                td(data-aos="fade-down")(style="background-color: #F0F8FF") También conocida como fase de desarrollo o programación. En esta etapa, los desarrolladores escriben el código fuente del sistema utilizando lenguajes de programación y herramientas de desarrollo.
               tr
                 td(data-aos="fade-down") Pruebas.
                 td(data-aos="fade-down") Se realizan diferentes tipos de pruebas para verificar que el sistema funcione correctamente, identificar errores y asegurar que el <em>software</em> cumpla con los requisitos definidos.

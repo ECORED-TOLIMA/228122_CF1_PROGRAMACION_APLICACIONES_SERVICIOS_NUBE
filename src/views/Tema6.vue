@@ -16,7 +16,7 @@
           img(src='@/assets/curso/tema6/img02.svg', alt='Imagen decorativa')
       .col.col-lg-8.col-12.order-lg-2.order-2
         .cajon.cajon.bg-05.px-4.py-3
-          p.mb-0(data-aos="fade-down") En un proyecto de <em>software</em>, estos roles pueden ser desempeñados por una o varias personas dependiendo del tamaño del proyecto, la organización del equipo y la metodología de desarrollo utilizada. En algunos casos, una misma persona puede asumir más de un rol, especialmente en proyectos pequeños o equipos reducidos.
+          p.mb-0(data-aos="fade-down") En un proyecto de <em>software</em>, estos roles pueden ser desempeñados por una o varias personas, dependiendo del tamaño del proyecto, la organización del equipo y la metodología de desarrollo utilizada. En algunos casos, una misma persona puede asumir más de un rol, especialmente en proyectos pequeños o equipos reducidos.
     .row.justify-content-center.mb-0
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
@@ -43,26 +43,26 @@
       .col.col-lg-9.position-relative
         .avatar
           figure
-            img(src="@/assets/curso/tema6/img05.svg", alt="Imagen decorativa").img240
+            img(src="@/assets/curso/tema6/img05.svg").img240
         .crd.crd--avatarHorizontal.crd--first.py-4
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema6/img06.svg", alt="Imagen decorativa").img100
+                img(src="@/assets/curso/tema6/img06.svg").img100
             .col
               p.mb-0 Actores humanos, como usuarios finales, administradores del sistema, operadores o supervisores.
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema6/img07.svg", alt="Imagen decorativa").img100
+                img(src="@/assets/curso/tema6/img07.svg").img100
             .col
               p.mb-0 Sistemas externos, como plataformas de pago, servicios de autenticación o sistemas de información de otras organizaciones.
         .crd.crd--avatarHorizontal.crd--last.py-4
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema6/img08.svg", alt="Imagen decorativa").img100
+                img(src="@/assets/curso/tema6/img08.svg").img100
             .col
               p Dispositivos o equipos, como sensores, terminales móviles o dispositivos de registro de datos.
     p.mb-4(data-aos="fade-down") La identificación de usuarios y actores es especialmente importante en la elaboración de diagramas de casos de uso, ya que estos permiten representar gráficamente las interacciones entre el sistema y quienes participan en su utilización. Esta información facilita la comprensión del funcionamiento del sistema y ayuda a definir con mayor claridad las funcionalidades que debe ofrecer.
@@ -90,38 +90,38 @@
           .row.align-items-center.BG01.p-4.py-0(data-aos="fade-down")
             .col-lg-4.d-none.d-lg-block.px-4.py-0
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema6/img11.png", alt="Imagen decorativa")
+                img(src="@/assets/curso/tema6/img11.png")
             .col-lg-8.p-5.py-0
               SlyderF.custom.color-acento-botones.p-4(columnas="col-lg-6 col-xl-6")
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema6/img12.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema6/img12.svg").img100.m-auto
                   p Usuarios finales, quienes interactúan directamente con el sistema en sus actividades cotidianas.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema6/img13.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema6/img13.svg").img100.m-auto
                   p Clientes o patrocinadores del proyecto, responsables de financiar o solicitar el desarrollo del sistema.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema6/img14.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema6/img14.svg").img100.m-auto
                   p Directivos o gerentes, quienes toman decisiones estratégicas relacionadas con el proyecto.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema6/img15.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema6/img15.svg").img100.m-auto
                   p Equipo técnico, incluyendo desarrolladores, arquitectos de <em>software</em> y especialistas en infraestructura.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema6/img16.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema6/img16.svg").img100.m-auto
                   p Áreas de soporte o mantenimiento, encargadas de operar y mantener el sistema una vez implementado.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema6/img17.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema6/img17.svg").img100.m-auto
                   p Entidades regulatorias o legales, que establecen normas o requisitos de cumplimiento.
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
@@ -193,27 +193,27 @@
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
           .col-5
-            img(src='@/assets/curso/tema6/img20.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema6/img20.svg' )
         p.text-center(data-aos="fade-down") Definir los objetivos generales del sistema.
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
           .col-5
-            img(src='@/assets/curso/tema6/img21.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema6/img21.svg' )
         p.text-center(data-aos="fade-down") Proporcionar información sobre los procesos del negocio.
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
           .col-5
-            img(src='@/assets/curso/tema6/img22.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema6/img22.svg' )
         p.text-center(data-aos="fade-down") Validar que los requisitos identificados respondan a las necesidades de la organización.
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
           .col-5
-            img(src='@/assets/curso/tema6/img23.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema6/img23.svg' )
         p.text-center(data-aos="fade-down") Aprobar los entregables generados durante el desarrollo del <em>software</em>.
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
           .col-5
-            img(src='@/assets/curso/tema6/img24.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema6/img24.svg' )
         p.text-center(data-aos="fade-down") Facilitar la comunicación entre los diferentes actores del proyecto.
     .bloque-texto-g.bg-01.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")
       .bloque-texto-g__img(
@@ -231,33 +231,33 @@
           .row.align-items-center.BG01.p-4.py-0(data-aos="fade-down")
             .col-lg-4.d-none.d-lg-block.px-4.py-0
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema6/img26.png", alt="Imagen decorativa")
+                img(src="@/assets/curso/tema6/img26.png")
             .col-lg-8.p-4.py-0
               SlyderF.custom.color-acento-botones.p-4(columnas="col-lg-4 col-xl-4")
                 .tarjeta.tarjeta--slyder.p-4.px-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema6/img27.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema6/img27.svg").img100.m-auto
                   p Definir y priorizar las funcionalidades del sistema.
                 .tarjeta.tarjeta--slyder.p-4.px-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema6/img28.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema6/img28.svg").img100.m-auto
                   p Representar las necesidades de los usuarios y del negocio.
                 .tarjeta.tarjeta--slyder.p-4.px-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema6/img29.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema6/img29.svg").img100.m-auto
                   p Mantener actualizado el listado de requisitos o backlog del producto.
                 .tarjeta.tarjeta--slyder.p-4.px-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema6/img30.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema6/img30.svg").img100.m-auto
                   p Validar que las funcionalidades desarrolladas cumplan con los requisitos establecidos.
                 .tarjeta.tarjeta--slyder.p-4.px-2
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema6/img31.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema6/img31.svg").img100.m-auto
                   p Colaborar continuamente con el equipo de desarrollo para aclarar dudas sobre los requisitos.
     p.mb-0(data-aos="fade-down") La participación activa del cliente líder y del dueño del producto permite mantener una comunicación constante entre el equipo técnico y la organización que solicita el sistema. Esta interacción facilita la toma de decisiones, mejora la comprensión de los requisitos y contribuye a que el <em>software</em> desarrollado cumpla con las expectativas del negocio y de los usuarios finales.
     separador

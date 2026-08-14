@@ -55,7 +55,7 @@
           .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema8/img06.png')})`}")
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema8/img06-1.png')})`}")
               .tarjeta-slide__contenido.p-auto.p-xl-5
                 h4 Actor
                 p.mb-0 Corresponde a la persona, sistema externo o entidad que interactúa con el sistema. Los actores representan los diferentes tipos de usuarios que utilizan las funcionalidades del <em>software</em>.
@@ -118,7 +118,7 @@
               p.mb-0 En primer lugar, se determinan las personas o sistemas externos que interactúan con el <em>software</em>. Los actores pueden ser usuarios finales, administradores, sistemas externos o dispositivos.
           .row(numero="2" titulo="Identificar los casos de uso")
             .col-12.mb-4.mb-md-0
-              p.mb-0 Posteriormente se establecen las funcionalidades que el sistema debe ofrecer. Cada caso de uso representa una acción que el sistema ejecuta para satisfacer una necesidad del usuario.
+              p.mb-0 Posteriormente, se establecen las funcionalidades que el sistema debe ofrecer. Cada caso de uso representa una acción que el sistema ejecuta para satisfacer una necesidad del usuario.
           .row(numero="3" titulo="Definir el límite del sistema")
             .col-12.mb-4.mb-md-0
               p.mb-0 Se delimita el sistema mediante un rectángulo dentro del cual se ubican los casos de uso. Este límite permite diferenciar lo que pertenece al sistema y lo que corresponde a los actores externos.
@@ -127,7 +127,7 @@
               p.mb-0 Se conectan los actores con los casos de uso que utilizan mediante líneas que representan la interacción.
           .row(numero="5" titulo="Revisar y validar el diagrama")
             .col-12.mb-4.mb-md-0
-              p.mb-0 Finalmente se revisa el diagrama con los <em>stakeholders</em> del proyecto para confirmar que las funcionalidades representadas corresponden a las necesidades del sistema.
+              p.mb-0 Finalmente, se revisa el diagrama con los <em>stakeholders</em> del proyecto para confirmar que las funcionalidades representadas corresponden a las necesidades del sistema.
       .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema8/img14.png')
@@ -137,7 +137,7 @@
       .row.justify-content-center.mb-4
         .col.col-lg-4.col-12.mb-lg-0.mb-3
           .tarjeta.tarjeta--blanca.px-4.py-2.mb-2.h-100
-            P.mb-0 <b>Actor</b>: administrador.
+            P.mb-0 <b>Actor</b>: cliente.
             p.text-bold.mb-0 Casos de uso:
             ul.lista-ul.mb-0
               li.mb-0
@@ -160,7 +160,7 @@
                 p.mb-0 Consultar historial de pedidos.
         .col.col-lg-4.col-12.mb-lg-0.mb-3
           .tarjeta.tarjeta--blanca.px-4.py-2.mb-2.h-100
-            P.mb-0 <b>Actor</b>: cliente.
+            P.mb-0 <b>Actor</b>: administrador.
             p.text-bold.mb-0 Casos de uso:
             ul.lista-ul.mb-0
               li.mb-0
@@ -220,23 +220,29 @@
         br 
         br 
         p Este enfoque surge en el marco de las metodologías ágiles, especialmente dentro de la metodología <b>Extreme Programming</b>, y posteriormente se consolida como una práctica fundamental en <b>Scrum <em>framework</em></b>, donde las historias de usuario permiten organizar y priorizar los requisitos del producto durante el proceso de desarrollo.
-    p.mb-4(data-aos="fade-down") Una historia de usuario se redacta normalmente siguiendo una estructura simple que permite identificar tres elementos fundamentales la persona que necesita la funcionalidad, la acción que desea realizar y el beneficio que obtiene. De forma general, se expresa mediante la siguiente estructura:
-    .row.justify-content-center.mb-4
-      .col.col-lg-4.col-12.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
+    p.mb-4(data-aos="fade-down") Una historia de usuario se redacta normalmente siguiendo una estructura simple que permite identificar tres elementos fundamentales, la persona que necesita la funcionalidad, la acción que desea realizar y el beneficio que obtiene. De forma general, se expresa mediante la siguiente estructura:
+    .row.justify-content-center.mb-4.align-items-center
+      .col.col-lg-3.col-12.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema8/img17.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema8/img17.svg' )
           .tarjeta.bg-03(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center Como [tipo de usuario]
-      .col.col-lg-4.col-12.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
+      .col.col-lg-1.col-12.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
+        figure
+          img(src='@/assets/curso/tema8/mas.svg' )
+      .col.col-lg-3.col-12.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema8/img18.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema8/img18.svg' )
           .tarjeta.bg-03(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center Quiero [funcionalidad o acción]
-      .col.col-lg-4.col-12.mb-lg-0(data-aos="flip-up")
+      .col.col-lg-1.col-12.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
+        figure
+          img(src='@/assets/curso/tema8/mas.svg' )
+      .col.col-lg-3.col-12.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema8/img19.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema8/img19.svg' )
           .tarjeta.bg-03(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center Para [obtener un beneficio o resultado]
@@ -280,7 +286,7 @@
           h4.mb-1(data-aos="fade-down") Ejemplo 1. Plataforma educativa
           p.mb-4 Historia de usuario: como aprendiz de un curso virtual, quiero acceder a los contenidos de cada módulo desde una plataforma en línea, para estudiar los materiales del curso y avanzar en mi proceso de formación.
           .tarjeta.tarjeta--blanca.p-4
-            h4.mb-0 Criterios de aceptación:
+            p.mb-0 Criterios de aceptación:
             ul.lista-ul(data-aos="fade-down")
               li.mb-0
                 i.lista-ul__vineta
@@ -303,7 +309,7 @@
           h4.mb-1(data-aos="fade-down") Ejemplo 2. Sistema de tienda virtual
           p.mb-4 Historia de usuario: como cliente de una tienda en línea, quiero agregar productos a un carrito de compras, para realizar posteriormente el pago de los artículos seleccionados.
           .tarjeta.tarjeta--blanca.p-4
-            h4.mb-4 Criterios de aceptación:
+            p.mb-0 Criterios de aceptación:
             ul.lista-ul(data-aos="fade-down")
               li.mb-0
                 i.lista-ul__vineta
@@ -342,31 +348,31 @@
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema8/img26.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema8/img26.svg' )
           h4.text-center Definir el escenario de uso
-          p Se identifica la situación o proceso que se desea representar, por ejemplo el registro de un usuario, la compra de un producto o el acceso a información dentro de un sistema.
+          p Se identifica la situación o proceso que se desea representar, por ejemplo, el registro de un usuario, la compra de un producto o el acceso a información dentro de un sistema.
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema8/img27.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema8/img27.svg' )
           h4.text-center Identificar al usuario o actor principal
           p Se determina quién interactúa con el sistema dentro del escenario planteado.
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema8/img28.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema8/img28.svg' )
           h4.text-center Establecer la secuencia de acciones
           p Se describen los pasos que realiza el usuario durante su interacción con el sistema.
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema8/img29.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema8/img29.svg' )
           h4.text-center Representar visualmente cada escena
           p Cada paso del proceso se representa mediante imágenes, bocetos o diagramas que muestran la interacción entre el usuario y la interfaz del sistema.
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema8/img30.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema8/img30.svg' )
           h4.text-center Analizar y validar el flujo de interacción
           p El equipo de desarrollo revisa el <em>storyboard</em> para identificar mejoras, validar los requisitos y garantizar que el sistema responda adecuadamente a las necesidades del usuario.
     p.mb-4(data-aos="fade-down") A continuación, se presenta un ejemplo simplificado de <em>storyboard</em> aplicado a un sistema de inscripción a cursos en línea.

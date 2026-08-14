@@ -46,7 +46,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema2/img05.jpg", alt="Imagen decorativa")
+              img(src="@/assets/curso/tema2/img05.jpg")
           .crd_hover_txt--body
             h5.t1.mb-3 Identificación de necesidades del usuario
             h5.t2.mb-2 Identificación de necesidades del usuario
@@ -56,7 +56,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema2/img06.jpg", alt="Imagen decorativa")
+              img(src="@/assets/curso/tema2/img06.jpg")
           .crd_hover_txt--body
             h5.t1.mb-3 Recolección de información
             h5.t2.mb-2 Recolección de información
@@ -66,7 +66,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema2/img07.jpg", alt="Imagen decorativa")
+              img(src="@/assets/curso/tema2/img07.jpg")
           .crd_hover_txt--body
             h5.t1.mb-3 Análisis de requisitos
             h5.t2.mb-2 Análisis de requisitos
@@ -76,7 +76,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema2/img08.jpg", alt="Imagen decorativa")
+              img(src="@/assets/curso/tema2/img08.jpg")
           .crd_hover_txt--body
             h5.t1.mb-3 Documentación de requisitos
             h5.t2.mb-2 Documentación de requisitos
@@ -86,7 +86,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema2/img09.jpg", alt="Imagen decorativa")
+              img(src="@/assets/curso/tema2/img09.jpg")
           .crd_hover_txt--body
             h5.t1.mb-3 Validación de requisitos
             h5.t2.mb-2 Validación de requisitos
@@ -117,31 +117,31 @@
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema2/img12.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema2/img12.svg' )
           h4.text-center Claridad en los objetivos del sistema
           p Permite definir qué problema se desea resolver y cuáles son las funcionalidades que debe ofrecer el <em>software</em>.
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema2/img13.svg' )
           h4.text-center Mejor comunicación entre los participantes del proyecto
           p Facilita la comprensión compartida entre usuarios, analistas, desarrolladores y demás actores involucrados.
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema2/img14.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema2/img14.svg' )
           h4.text-center Reducción de riesgos en el desarrollo
           p Disminuye la posibilidad de errores, cambios inesperados o interpretaciones incorrectas durante el proceso de construcción del <em>software</em>.
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema2/img15.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema2/img15.svg' )
           h4.text-center Base para el diseño y desarrollo del sistema
           p Los requisitos constituyen el punto de partida para definir la arquitectura del sistema y desarrollar sus funcionalidades.
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema2/img16.svg' )
           h4.text-center Referencia para la validación del <em>software</em>
           p Permite verificar que el sistema desarrollado cumple con las necesidades y expectativas definidas inicialmente.
     p.mb-0(data-aos="fade-down") Por estas razones, la definición de requisitos es considerada una de las actividades más críticas dentro del ciclo de vida del <em>software</em>, ya que influye directamente en la calidad, funcionalidad y éxito del sistema desarrollado.
@@ -150,7 +150,7 @@
       h2 2.3 Resultados de la fase de requisitos
     figure.mb-4
       img(src='@/assets/curso/tema2/img17.png', alt='Imagen decorativa')
-    p(data-aos="fade-down") Al finalizar la fase de definición de requisitos se generan diversos productos o entregables que permiten comprender con claridad qué debe hacer el sistema y cuáles son las necesidades que debe satisfacer. Estos resultados sirven como base para el diseño, desarrollo y pruebas del <em>software</em>.
+    p(data-aos="fade-down") Al finalizar la fase de definición de requisitos, se generan diversos productos o entregables que permiten comprender con claridad qué debe hacer el sistema y cuáles son las necesidades que debe satisfacer. Estos resultados sirven como base para el diseño, desarrollo y pruebas del <em>software</em>.
     p.mb-4(data-aos="fade-down") A continuación, se presentan algunos de los principales resultados de esta fase:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12

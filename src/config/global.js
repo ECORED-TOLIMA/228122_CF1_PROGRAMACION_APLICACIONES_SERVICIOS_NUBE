@@ -300,7 +300,7 @@ export default {
         'Limitación técnica, normativa o tecnológica que condiciona el diseño o funcionamiento del sistema.',
     },
     {
-      termino: 'Stakeholder',
+      termino: '<em>Stakeholder</em>',
       significado:
         'Persona, grupo u organización que tiene interés en el sistema o que puede verse afectado por su desarrollo o implementación.',
     },

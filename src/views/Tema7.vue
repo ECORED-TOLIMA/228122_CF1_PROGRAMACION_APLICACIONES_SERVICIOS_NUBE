@@ -73,7 +73,7 @@
         .row.py-5.px-4(titulo="c.")
           .col-lg-5.mb-4.mb-md-0.order-lg-2.order-2
             h4 Herramientas de modelado de datos
-            p.mb-0 Permiten representar la estructura de los datos que utilizará el sistema. Mediante estas herramientas se elaboran diagramas entidad–relación, modelos de bases de datos y estructuras de almacenamiento de información.
+            p.mb-0 Permiten representar la estructura de los datos que utilizará el sistema. Mediante estas herramientas se elaboran diagramas entidad-relación, modelos de bases de datos y estructuras de almacenamiento de información.
           .col-lg-7.order-lg-1.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema7/img06.jpg')

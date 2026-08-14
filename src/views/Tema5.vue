@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img01.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p En el contexto de la ingeniería de <em>software</em>, la elicitación se considera una de las actividades más importantes dentro de la Ingeniería de requisitos, ya que de la calidad de la información obtenida dependen las fases posteriores de análisis, especificación y validación.
+        p En el contexto de la ingeniería de <em>software</em>, la elicitación se considera una de las actividades más importantes dentro de la ingeniería de requisitos, ya que de la calidad de la información obtenida dependen las fases posteriores de análisis, especificación y validación.
         br
         br
         p Durante este proceso se interactúa con diferentes actores, como usuarios finales, clientes, expertos del dominio, desarrolladores y responsables del negocio. Cada uno aporta información valiosa sobre el funcionamiento esperado del sistema, los problemas actuales y las oportunidades de mejora.
@@ -43,31 +43,31 @@
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema5/img03.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema5/img03.svg' )
           h4.text-center Definición de objetivos de la elicitación
           p Se determina qué información se necesita obtener y cuál es el alcance del sistema o producto a desarrollar.
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema5/img04.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema5/img04.svg' )
           h4.text-center Identificación de los interesados (<em>stakeholders</em>)
           p Se reconocen las personas o grupos que interactúan con el sistema o que tienen interés en su desarrollo, como usuarios finales, administradores, clientes o expertos del dominio.
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema5/img05.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema5/img05.svg' )
           h4.text-center Selección de técnicas de elicitación
           p Se definen los métodos que se utilizarán para recolectar información, como entrevistas, talleres, cuestionarios o análisis de documentos.
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema5/img06.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema5/img06.svg' )
           h4.text-center Planificación de actividades
           p Se establece un cronograma de reuniones, sesiones de trabajo y actividades de recolección de información.
         .tarjeta.bg-04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/tema5/img07.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema5/img07.svg' )
           h4.text-center Definición de recursos y herramientas
           p Se determinan los instrumentos y medios que se emplearán para registrar y analizar la información obtenida.
     p.mb-0(data-aos="fade-down") Una planeación adecuada de la elicitación contribuye a mejorar la calidad de los requisitos identificados, ya que permite abordar de forma sistemática las necesidades de los usuarios y del negocio. De esta manera, se reducen los riesgos de interpretaciones incorrectas, cambios frecuentes o inconsistencias en los requisitos durante las etapas posteriores del desarrollo de <em>software</em>.

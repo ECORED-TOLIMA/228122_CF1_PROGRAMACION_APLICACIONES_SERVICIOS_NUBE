@@ -58,7 +58,7 @@
               tr
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Procesamiento y cálculo.
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Operaciones automáticas que transforman o procesan datos según reglas definidas por el negocio.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") El sistema debe calcular automáticamente el valor total de una compra incluyendo impuestos y descuentos.
+                td(data-aos="fade-down")(style="background-color: #F0F8FF") El sistema debe calcular automáticamente el valor total de una compra, incluyendo impuestos y descuentos.
               tr
                 td(data-aos="fade-down") Reportes y consultas.
                 td(data-aos="fade-down") Funcionalidades que permiten generar informes o consultar información almacenada en el sistema.
