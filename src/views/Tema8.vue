@@ -220,7 +220,7 @@
         br 
         br 
         p Este enfoque surge en el marco de las metodologías ágiles, especialmente dentro de la metodología <b>Extreme Programming</b>, y posteriormente se consolida como una práctica fundamental en <b>Scrum <em>framework</em></b>, donde las historias de usuario permiten organizar y priorizar los requisitos del producto durante el proceso de desarrollo.
-    p.mb-4(data-aos="fade-down") Una historia de usuario se redacta normalmente siguiendo una estructura simple que permite identificar tres elementos fundamentales, la persona que necesita la funcionalidad, la acción que desea realizar y el beneficio que obtiene. De forma general, se expresa mediante la siguiente estructura:
+    p.mb-4(data-aos="fade-down") Una historia de usuario se redacta normalmente siguiendo una estructura simple que permite identificar tres elementos fundamentales: la persona que necesita la funcionalidad, la acción que desea realizar y el beneficio que obtiene. De forma general, se expresa mediante la siguiente estructura:
     .row.justify-content-center.mb-4.align-items-center
       .col.col-lg-3.col-12.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
