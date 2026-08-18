@@ -10,7 +10,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/tema3/img01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img01.png')
       .col.col-lg-7.col-12.order-lg-2.order-2
         .cajon.cajon.C06.color-primario.p-4.mb-2
           p.mb-0(data-aos="fade-down") La correcta identificación y documentación de los requisitos constituye una de las actividades más importantes dentro del proceso de desarrollo de <em>software</em>, ya que establece las bases para las fases de diseño, implementación, pruebas y mantenimiento del sistema. Cuando los requisitos se definen de manera clara y estructurada, se facilita la comunicación entre los diferentes actores del proyecto y se reduce el riesgo de errores durante el desarrollo.
@@ -22,12 +22,12 @@
     .row.justify-content-center.mb-4
       .col.col-lg-3.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/tema3/img02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img02.svg')
       .col.col-lg-9.col-12.order-lg-1.order-2
         .row.mb-3
           .col-lg-auto.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/tema3/img03.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema3/img03.svg')
           .col-lg-10.col-12
             p.mb-0 Los requisitos funcionales describen las funciones, servicios y comportamientos que el sistema debe proporcionar para satisfacer las necesidades de los usuarios y cumplir con los objetivos del negocio. En otras palabras, definen qué debe hacer el sistema frente a determinadas entradas o acciones realizadas por los usuarios.
         .cajon.cajon.C06.color-primario.p-4.mb-2
@@ -139,7 +139,7 @@
         .row.mb-3
           .col-lg-auto.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/tema3/img06.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema3/img06.svg')
           .col-lg-10.col-12
             .cajon.cajon.bg-02.p-4.mb-2
               p.mb-0 A diferencia de los requisitos funcionales y no funcionales, que describen lo que el sistema debe hacer y cómo debe comportarse, los requisitos de restricción definen condiciones externas o internas que limitan las decisiones de diseño, las tecnologías a utilizar o las formas de implementación del sistema.
@@ -147,7 +147,7 @@
         p.mb-0(data-aos="fade-down") Las restricciones pueden presentarse en diferentes ámbitos, como se describe a continuación.
       .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema3/img05.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img05.png')
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido

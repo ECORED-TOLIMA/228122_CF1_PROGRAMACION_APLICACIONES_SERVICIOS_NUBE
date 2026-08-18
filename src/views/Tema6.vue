@@ -8,19 +8,19 @@
       h1 Roles en la ingeniería de requisitos
     p.mb-4(data-aos="fade-down") La ingeniería de requisitos es un proceso colaborativo en el que participan diferentes personas con responsabilidades específicas dentro del proyecto de <em>software</em>. Cada uno de estos participantes aporta información, experiencia o capacidades técnicas que permiten identificar, analizar, documentar y validar los requisitos del sistema.
     figure.mb-4
-      img(src='@/assets/curso/tema6/img01.png', alt='Imagen decorativa')
+      img(src='@/assets/curso/tema6/img01.png')
     p.mb-4(data-aos="fade-down") Los roles en la ingeniería de requisitos representan a los diferentes actores que intervienen durante la definición y gestión de las necesidades del sistema. Su participación es fundamental para garantizar que los requisitos reflejen correctamente los objetivos del negocio, las expectativas de los usuarios y las posibilidades técnicas del equipo de desarrollo.
     .row.justify-content-center.mb-4
       .col.col-lg-auto.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/tema6/img02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img02.svg')
       .col.col-lg-8.col-12.order-lg-2.order-2
         .cajon.cajon.bg-05.px-4.py-3
           p.mb-0(data-aos="fade-down") En un proyecto de <em>software</em>, estos roles pueden ser desempeñados por una o varias personas, dependiendo del tamaño del proyecto, la organización del equipo y la metodología de desarrollo utilizada. En algunos casos, una misma persona puede asumir más de un rol, especialmente en proyectos pequeños o equipos reducidos.
     .row.justify-content-center.mb-0
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/tema6/img03.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img03.jpg')
       .col.col-lg-6.col-12.order-lg-1.order-2
         p.mb-4(data-aos="fade-down") La correcta identificación de los roles permite mejorar la comunicación entre los participantes del proyecto, facilitar la toma de decisiones y asegurar que cada requisito tenga un responsable claro para su definición, validación y seguimiento.
         .cajon.cajon.C02.color-secundario.px-4.py-3
@@ -32,7 +32,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/tema6/img04.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img04.jpg')
       .col.col-lg-6.col-12.order-lg-2.order-2
         p.mb-2(data-aos="fade-down") Los <b>usuarios</b> son las personas que utilizan el sistema de manera directa para realizar tareas específicas dentro de su entorno laboral o personal. Ellos interactúan con la interfaz del sistema, introducen información, consultan datos y ejecutan diferentes funciones que permiten cumplir los procesos definidos por la organización. Debido a su experiencia práctica en el uso del sistema, los usuarios constituyen una fuente primaria de información durante la recopilación de requisitos.
         .cajon.cajon.C06.color-primario.px-4.py-2
@@ -69,7 +69,7 @@
     .row.justify-content-center.mb-0
       .col-lg-auto.d-none.d-lg-block
         figure.img95
-          img(src='@/assets/curso/tema6/img09.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img09.svg')
       .col-lg-9.col-12
         .cajon.cajon.C04.p-4.mb-2
           p.mb-0 Reconocer adecuadamente a los usuarios y actores contribuye a diseñar sistemas más funcionales, comprensibles y alineados con las necesidades reales de quienes interactúan con la solución tecnológica.
@@ -126,7 +126,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/tema6/img18.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img18.svg')
       .col.col-lg-5.col-12.order-lg-1.order-2
         p.mb-4(data-aos="fade-down") La correcta identificación y gestión de los <em>stakeholders</em> permite establecer canales de comunicación efectivos y asegurar que las necesidades del negocio se reflejen adecuadamente en los requisitos del sistema. Además, facilita la validación de los resultados obtenidos durante el desarrollo del <em>software</em>.
         .cajon.cajon.C06.color-primario.px-4.py-2
@@ -183,7 +183,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/tema6/img19.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img19.jpg')
       .col.col-lg-7.col-12.order-lg-1.order-2
         p.mb-4(data-aos="fade-down") Dentro de la ingeniería de requisitos, el cliente líder y el dueño del producto cumplen un papel fundamental en la definición de las necesidades del sistema y en la toma de decisiones relacionadas con el desarrollo del <em>software</em>. Estas figuras representan los intereses del negocio y aseguran que el sistema que se construye responda a los objetivos organizacionales y a las necesidades reales de los usuarios.
         .cajon.cajon.C06.color-primario.px-4.py-2
@@ -265,7 +265,7 @@
       h2 6.4 Equipo de desarrollo y analista
     p.mb-4(data-aos="fade-down") El equipo de desarrollo y el analista de requisitos desempeñan un papel esencial en la ingeniería de requisitos, ya que son responsables de interpretar, analizar y transformar las necesidades del negocio en soluciones tecnológicas que puedan implementarse mediante <em>software</em>. Su trabajo permite convertir las expectativas de los usuarios y las organizaciones en especificaciones técnicas claras y viables.
     figure.mb-4
-      img(src='@/assets/curso/tema6/img32.png', alt='Imagen decorativa')
+      img(src='@/assets/curso/tema6/img32.png')
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
         .cajon.cajon.C06.color-primario.px-4.py-3
@@ -297,11 +297,11 @@
               | Participar en la mejora continua del sistema durante su mantenimiento.
       .col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema6/img33.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img33.svg')
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/tema6/img34.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img34.jpg')
       .col.col-lg-7.col-12.order-lg-2.order-2
         p.mb-3(data-aos="fade-down") Por su parte, el <b>analista de requisitos</b> cumple una función de enlace entre el negocio y el equipo técnico. Este profesional se encarga de comprender las necesidades de los usuarios, documentarlas de manera estructurada y asegurar que dichas necesidades sean interpretadas correctamente por el equipo de desarrollo.
         .cajon.cajon.C06.color-primario.p-4
@@ -309,7 +309,7 @@
     .row.BG03.justify-content-center.align-items-center.px-3.py-5.mb-0
       .col.col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/tema6/img35.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img35.svg')
       .col.col-lg-7.col-12.order-lg-1.order-2
         .row.justify-content-center
           .col

@@ -13,16 +13,16 @@
           .row.mb-0
             .col-lg-2.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/tema2/img02.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema2/img02.svg')
             .col-lg-10.col-12
               p.mb-0 Durante este proceso se recopila información proveniente de diferentes fuentes, como usuarios, clientes, expertos del dominio y documentos organizacionales. A partir de esta información se establecen los requisitos del sistema, los cuales describen de manera detallada las funciones que el <em>software</em> debe realizar y las características que debe cumplir para responder a las necesidades planteadas.
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema2/img01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema2/img01.png')
     .row.justify-content-center.mb-0
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/tema2/img03.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema2/img03.svg')
       .col.col-lg-8.col-12.order-lg-1.order-2
         p.mb-2(data-aos="fade-down") La correcta definición de los requisitos es fundamental para el éxito de un proyecto de <em>software</em>, ya que permite establecer una base clara para las fases posteriores del desarrollo, como el diseño, la programación y las pruebas. Cuando los requisitos están bien definidos, el equipo de desarrollo puede comprender mejor los objetivos del sistema y reducir la posibilidad de errores, retrabajos o cambios inesperados durante el proceso de construcción del <em>software</em>.
 
@@ -34,7 +34,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/tema2/img04.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema2/img04.png')
       .col.col-lg-7.col-12.order-lg-2.order-2
         .cajon.cajon.C06.color-primario.p-4.mb-3
           p.mb-0(data-aos="fade-down") El alcance de la fase de requisitos se refiere al conjunto de actividades orientadas a identificar, comprender, analizar y documentar las necesidades que debe satisfacer el sistema de <em>software</em>. En esta etapa se busca establecer con claridad qué debe hacer el sistema, cuáles son sus funcionalidades principales y qué condiciones o restricciones deben considerarse durante su desarrollo.
@@ -110,7 +110,7 @@
               p.mb-0(data-aos="fade-down") Asimismo, los requisitos bien definidos sirven como referencia para las fases de diseño, desarrollo y pruebas, ya que establecen los criterios que permitirán verificar si el <em>software</em> cumple con las funcionalidades y características esperadas. De esta manera, la definición de requisitos se convierte en un elemento clave para garantizar la calidad del producto final.
             .col.col-lg-auto.col-8.col-md-5.order-lg-2.order-1.mb-lg-0.mb-3
               figure
-                img(src='@/assets/curso/tema2/img11.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema2/img11.svg')
     p.mb-4(data-aos="fade-down") Entre los principales aspectos que evidencian la importancia de la definición de requisitos se encuentran los siguientes:
     .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
       SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
@@ -149,7 +149,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.3 Resultados de la fase de requisitos
     figure.mb-4
-      img(src='@/assets/curso/tema2/img17.png', alt='Imagen decorativa')
+      img(src='@/assets/curso/tema2/img17.png')
     p(data-aos="fade-down") Al finalizar la fase de definición de requisitos, se generan diversos productos o entregables que permiten comprender con claridad qué debe hacer el sistema y cuáles son las necesidades que debe satisfacer. Estos resultados sirven como base para el diseño, desarrollo y pruebas del <em>software</em>.
     p.mb-4(data-aos="fade-down") A continuación, se presentan algunos de los principales resultados de esta fase:
     .row.justify-content-center.mb-4(data-aos="flip-up")
